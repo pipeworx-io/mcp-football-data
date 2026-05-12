@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-football-data",
+  "version": "0.1.0",
+  "description": "Football-Data.org MCP — soccer competitions, matches, standings",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "football-data"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-football-data"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
