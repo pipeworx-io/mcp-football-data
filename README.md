@@ -1,16 +1,25 @@
-# mcp-football-data
+# @pipeworx/football-data
 
-Football-Data.org MCP — soccer competitions, matches, standings
+football-data.org MCP — soccer competitions, matches, standings, teams.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `get_competition_standings` | League table for a competition season. Returns total / home / away tables. |
-| `get_team` | Team detail by ID — current squad, coach, competitions, venue. |
-| `get_team_matches` | A team\'s matches across competitions. Filter by status, date range, competitions, season, or venue. |
+- `list_competitions()`
+- `get_competition_matches(competition, status?, date_from?, date_to?, matchday?, stage?, season?)`
+- `get_competition_standings(competition, season?, matchday?)`
+- `get_team(team_id)`
+- `get_team_matches(team_id, status?, date_from?, date_to?, venue?, season?, limit?)`
+
+## Auth
+
+- **Platform key:** gateway env `PLATFORM_FOOTBALL_DATA_KEY`.
+- **BYO:** `?_apiKey=<token>` after registering at https://www.football-data.org/client/register (free, 10 req/min).
+
+## Data source
+
+`https://api.football-data.org/v4/` — header `X-Auth-Token`.
 
 ## Quick Start
 
@@ -26,7 +35,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -50,7 +59,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
