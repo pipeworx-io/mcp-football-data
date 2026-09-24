@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/football-data",
   "title": "Football Data",
   "description": "Football-Data.org MCP — soccer competitions, matches, standings",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/football-data",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-football-data",
