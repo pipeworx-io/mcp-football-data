@@ -709,7 +709,7 @@ const tools: McpToolExport['tools'] = [
   {
     name: 'get_competition_matches',
     description:
-      'football-data.org match list for ONE competition it covers — Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Primeira Liga, Brasileirão, MLS, Champions League, European Championship, World Cup. Returns scheduled, live and finished matches with scores. Filter by status (SCHEDULED, LIVE, IN_PLAY, PAUSED, FINISHED, POSTPONED, SUSPENDED, CANCELLED), date range, matchday, stage, or season year. For a league or national-team competition outside that list, API-Football\'s fixtures covers far more.',
+      'List matches in a competition. Filter by status (SCHEDULED, LIVE, IN_PLAY, PAUSED, FINISHED, POSTPONED, SUSPENDED, CANCELLED), date range, matchday, stage, or season year.',
     inputSchema: {
       type: 'object',
       properties: {
