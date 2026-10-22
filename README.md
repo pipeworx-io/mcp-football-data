@@ -1,8 +1,14 @@
 # @pipeworx/football-data
 
 football-data.org MCP — soccer competitions, matches, standings, teams.
+Covers Premier League, Championship, Primera División/La Liga, Serie A,
+Bundesliga, Ligue 1, Eredivisie, Primeira Liga, Brasileirão, Copa
+Libertadores, UEFA Champions League, European Championship and the FIFA
+World Cup (confirmed live 2026-10-18, fleet #3247 — the free tier does not
+currently include MLS, despite an earlier version of this pack's own
+source comment claiming one).
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1684+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -65,7 +71,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1684+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

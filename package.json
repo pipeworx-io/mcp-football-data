@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-football-data",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Football-Data.org MCP — soccer competitions, matches, standings",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-a66bbd40cc9aa1ff35d82edfde601b3f5c7cb33992203b11635d386799a15549",
-    "sourceCommit": "eaa02971997fbfee27712ea66d7d5fd840d008ea"
+    "sourceHash": "v1-87de3518271db23d298fd3465c4cc2ba11f0ab0f65a5c7c8f7aefac01e1552ff",
+    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
   }
 }
