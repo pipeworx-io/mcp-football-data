@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-football-data",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Football-Data.org MCP — soccer competitions, matches, standings",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "football-data",
     "gatewaySlug": "football-data",
-    "sourceHash": "v1-19849868f4f469418ba95e7e2162ba979f3b6fcf7458032fe5aa84eff59d366e",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-4221b5ed67ec5425e8e7fae483c9657259d457dff3279ba34899a8f75213d11c",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
